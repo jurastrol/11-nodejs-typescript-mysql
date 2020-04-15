@@ -47,4 +47,4 @@ router.get('/heroes/:id', (req: Request, res: Response) => {
     });
 })
 
-export default router;
+export default router; 

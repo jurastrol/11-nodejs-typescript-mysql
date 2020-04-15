@@ -23,7 +23,7 @@ export default class Server {
     start(callback: Function){
         this.app.listen(this.port, callback());
         this.publicFolder();
-    }
+    } 
 
 
 }

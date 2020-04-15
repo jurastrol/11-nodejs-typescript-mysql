@@ -1,5 +1,5 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
+var __importDefault = (this && this.__importDefault) || function(mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
@@ -15,8 +15,7 @@ router.get('/heroes', (req, res) => {
                 ok: false,
                 erro: err
             });
-        }
-        else {
+        } else {
             res.json({
                 ok: true,
                 heroes
@@ -35,8 +34,7 @@ router.get('/heroes/:id', (req, res) => {
                 ok: false,
                 erro: err
             });
-        }
-        else {
+        } else {
             res.json({
                 ok: true,
                 heroe: heroes[0]

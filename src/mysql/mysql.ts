@@ -37,7 +37,7 @@ export default class MySQL {
                 callback(null, results);
             }
           });
-    }
+    } 
         
     private conectarDB(){
         this.cnn.connect((err: mysql.MysqlError ) => {
